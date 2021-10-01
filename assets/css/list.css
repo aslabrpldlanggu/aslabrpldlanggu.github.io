@@ -1,0 +1,9 @@
+.footer {
+    position: relative !important;
+    bottom: 0;
+    left: 0 !important;
+    margin-top: 20rem;
+}
+.list-group .active {
+    background: var(--main-color);
+}

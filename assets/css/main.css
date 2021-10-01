@@ -1,0 +1,46 @@
+:root {
+    --main-color: #6610F2;
+    --dark: #333;
+
+}
+
+* {
+    font-family: 'Montserrat',sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    font-weight:  600;
+}
+h2 {
+    font-weight: 700;
+}
+
+.bg-light {
+    background: #fff !important;
+}
+.border-primary {
+    border-color: var(--main-color) !important;
+}
+.btn-primary {
+    background: var(--main-color);
+    border: var(--main-color);
+}
+.btn-primary:hover {
+    background: rgba(102, 16, 242,0.9);
+}
+.text-primary {
+    color: var(--main-color) !important;
+}
+a.text-primary:hover {
+    color: rgba(102, 16, 242,.5) !important;
+}
+.card-title {
+    color: var(--main-color);    
+}
+.card-body p {
+    color: var(--main-color);
+}
+.shadow {
+    box-shadow: 0 0 10px rgba(75, 57, 57, 0.1) !important;
+}

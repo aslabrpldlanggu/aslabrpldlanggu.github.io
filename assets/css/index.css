@@ -1,0 +1,417 @@
+.navbar {
+    font-weight: 600;
+}
+.navbar-brand {
+    margin-left: 200px !important;
+    color: var(--main-color) !important;
+    letter-spacing: .2em;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.navbar-brand img {
+    width: 50px;
+    border-radius: 20px 0 20px 0;
+    margin-right: .5rem;
+}
+.navbar-nav {
+    margin-right: 200px !important;
+}
+.nav-link {
+    color: var(--main-color) !important;
+    font-size: 1.1rem;
+}
+header {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bloob-left img {
+    width: 750px;
+}
+.aslab-brand-header {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--main-color) !important;
+}
+.aslab-brand-header h4 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    letter-spacing: .3em;
+}
+.aslab-brand-header p {
+    font-size: 2rem;
+    font-style: italic;
+}
+.courses {
+    margin-top: 15rem!important;
+    margin-bottom: 5rem !important;
+}
+.courses .card-title {
+    font-weight: 600;
+}
+img#corak-section-qod {
+    width: 100%;
+    margin-bottom: 0;
+}
+.section-qod {
+    background: var(--main-color);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeri-breaker {
+    width: 40%;
+}
+.qod-breaker {
+    width: 50%;
+}
+.row-img-section {
+	height:  23rem;
+    padding-top: 10px;
+}
+.row-img-section .row-images {
+	display:  flex;
+	flex-wrap: wrap;
+	padding: 0 10px 10px 10px;
+	justify-content:  center;
+	height: 23rem;
+	overflow:  hidden;
+}
+.row-img-section .gambar-img {
+	flex: 25%;
+	overflow: hidden;
+	cursor: pointer;
+	width: 100%;
+	height: auto;
+	border:  3px solid #fff;
+}
+img#corak-footer {
+    width: 100%;
+}
+img#img-icon {
+    width: 150px;
+    border-radius: 50%;
+   margin-bottom: 1.5rem;
+}
+
+
+/* slick css */
+.slick-slide > div {
+	filter: brightness(.8);
+  	transform: scale(.5);
+  	transition: transform .3s cubic-bezier(.4,0,.2,1);
+}
+.slick-center > div {
+ 	transform: scale(1);
+ 	filter: brightness(1.0);
+}
+.slider-item > .card {
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 1440px) {
+    .bloob-left img {
+        width: 650px;
+    }
+    .aslab-brand-header {
+        margin-right: 10rem;
+        margin-top: 7rem;
+        padding-top: 10rem;
+        text-align: center;
+        color: var(--main-color) !important;
+    }
+    .aslab-brand-header h4 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        letter-spacing: .3em;
+    }
+    .aslab-brand-header p {
+        font-size: 1.2rem;
+        font-style: italic;
+    }
+    .section-qod {
+        display: block;
+    }
+    .galeri-breaker {
+        width: 80%;
+    }
+    .qod-breaker {
+        width: 80%;
+        margin-top: 10rem;
+    }
+    .row-img-section {
+        height:  auto;
+    }
+    .row-img-section .row-images {
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    header {
+        margin-bottom: 18rem;
+    }
+    .bloob-left img {
+        width: 465px;
+    }
+    .aslab-brand-header {
+        margin-right: 7rem;
+        margin-top: 4rem;
+        padding-top: 10rem;
+        text-align: center;
+        color: var(--main-color) !important;
+    }
+    .aslab-brand-header h4 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: .4em;
+    }
+    .aslab-brand-header p {
+        font-size: .7rem;
+        font-style: italic;
+    }
+    .navbar-brand {
+        margin-left: 100px !important;
+        color: var(--main-color) !important;
+        letter-spacing: .2em;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    .navbar-brand img {
+        width: 30px;
+        border-radius: 10px 0 10px 0;
+        margin-right: .5rem;
+    }
+    .navbar-nav {
+        margin-right: 100px !important;
+    }
+    .nav-link {
+        color: var(--main-color) !important;
+        font-size: .9rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .nav {
+        width: 100%;
+    }
+    .navbar-brand {
+        margin-left: 50px !important;
+        color: var(--main-color) !important;
+        letter-spacing: .2em;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    .navbar-brand img {
+        width: 30px;
+        border-radius: 10px 0 10px 0;
+        margin-right: .5rem;
+    }
+    .navbar-nav {
+        margin-right: 50px !important;
+    }
+    .nav-link {
+        color: var(--main-color) !important;
+        font-size: .9rem;
+    }
+    header {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    .bloob-left img {
+        width: 305px;
+    }
+    .aslab-brand-header {
+        margin-right: 4rem;
+        margin-top: none;
+        padding-top: 2rem;
+        text-align: center;
+        color: var(--main-color) !important;
+    }
+    .aslab-brand-header h4 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: .4em;
+    }
+    .aslab-brand-header p {
+        font-size: .9rem;
+        font-style: italic;
+    }
+    .courses {
+        margin-top: 0 !important;
+        margin-bottom: 5rem !important;
+    }
+    .courses .card {
+        width: 20rem;
+    }
+    .courses .card .card-img-top {
+        width: 150px;
+        padding: 25px !important;
+    }
+    .courses .card-body .card-title {
+        font-size: 1.2rem;
+    }
+    .courses .card-body p {
+        font-size: .8rem;
+    }
+    .footer h2 {
+        font-size: 1.3rem;
+    }
+    #copyright {
+        font-size: .8rem;
+    }
+}   
+@media only screen and (max-width: 425px) {
+    .navbar-brand {
+        margin-left: 20px !important;
+        color: var(--main-color) !important;
+        letter-spacing: .2em;
+        font-size: .9rem;
+        font-weight: 700;
+    }
+    .navbar-brand img {
+        width: 30px;
+        border-radius: 10px 0 10px 0;
+        margin-right: .2rem;
+    }
+    .navbar-nav {
+        margin-right: 20px !important;
+    }
+    .nav-link {
+        color: var(--main-color) !important;
+        font-size: .5rem;
+    }
+    header {
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        position: relative;
+    }
+    .bloob-left img {
+        width: 250px;
+    }
+    .aslab-brand-header {
+        margin-right: 0;
+        margin-top: 0;
+        padding-top: 0;
+        text-align: center;
+        color: var(--main-color) !important;
+        position: absolute;
+        top: 7rem;
+        right: 1rem;
+    }
+    .aslab-brand-header h4 {
+        font-size: .9rem;
+        font-weight: 600;
+        letter-spacing: .3em;
+    }
+    .aslab-brand-header p {
+        font-size: .8rem;
+        font-style: italic;
+    }
+    .courses h2,.galeri-breaker h2,.qod-breaker h2 {
+        font-size: 1.3rem;
+        font-weight: 550;
+    }
+    .courses {
+        margin-top: 0 !important;
+        margin-bottom: 5rem !important;
+    }
+    .courses .card {
+        margin-top: 4rem !important;
+    }
+    .courses .card:first-child {
+        margin-top: 0 !important;
+    }
+    .courses .card .card-img-top {
+        width: 250px;
+        padding: 25px !important;
+    }
+    .courses .card-body .card-title {
+        font-size: 1.3rem;
+    }
+    .galeri-breaker {
+        width: 100%;
+    }
+    .qod-breaker {
+        width: 85%;
+        height: auto;
+        margin-top: 3rem;
+    }
+    .qod-breaker .card-title {
+        overflow: hidden;
+    }
+    .row-img-section {
+        height:  auto;
+        padding-top: 10px;
+    }
+    .row-img-section .row-images {
+        display:  flex;
+        flex-wrap: wrap;
+        padding: 0 5px 10px 5px;
+        justify-content:  center;
+        height: auto;
+        overflow:  hidden;
+    }
+    .row-img-section .gambar-img {
+        flex: 25%;
+        overflow: hidden;
+        cursor: pointer;
+        width: 100%;
+        height: auto;
+        border:  3px solid #fff;
+    }
+    .footer h2 {
+        font-size: 1rem;
+    }
+    .footer p{
+        font-size: .9rem;
+        text-align: justify !important;
+        padding: 10px;
+    }
+    img#img-icon {
+        width: 100px;
+    }
+    #copyright {
+        font-size: .5rem;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .aslab-brand-header {
+        right: .5rem;
+    }
+    .courses .card .card-img-top {
+        width: 230px;
+        padding: 25px !important;
+    }
+    .qod-breaker {
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .bloob-left img {
+        width: 150px;
+    }
+    .aslab-brand-header {
+        top: 3rem;
+        right: 0;
+    }
+    .courses .card .card-img-top {
+        width: 190px;
+        padding: 25px !important;
+    }
+    .courses .card .card-title {
+        font-size: 1.1rem;
+    }
+    .qod-breaker {
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+    }
+    .qod-breaker .card {
+        width: 13rem !important;
+    }
+}
