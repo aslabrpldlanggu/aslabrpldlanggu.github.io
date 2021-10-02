@@ -1,0 +1,16 @@
+.code-line {
+    padding: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.element {
+    color: #fa0c0c  !important;
+}
+.attr {
+    color: #00ff22 !important;
+    font-weight: 550;
+}
+.val-attr {
+    color: #0066ff !important;
+    font-weight: 500;
+}
