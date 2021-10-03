@@ -1,6 +1,6 @@
 :root {
     --main-color: #6610F2;
-    --dark: #333;
+    --dark: rgb(92, 90, 90);
 
 }
 
@@ -25,6 +25,18 @@ h2 {
 .btn-primary {
     background: var(--main-color);
     border: var(--main-color);
+}
+.table.table-bordered {
+    border: 2px solid var(--main-color) !important;
+}
+.table.table-bordered > thead > tr > th {
+    border: 2px solid var(--main-color) !important;
+}
+.table.table-bordered > tbody > tr > td {
+    border: 2px solid var(--main-color) !important;
+}
+.table-primary {
+    background: rgba(102, 16, 242,0.7) !important;
 }
 .btn-primary:hover {
     background: rgba(102, 16, 242,0.9);
