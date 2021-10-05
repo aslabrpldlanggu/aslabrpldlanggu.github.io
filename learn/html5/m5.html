@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="../../assets/css/index.css">
 	<link rel="stylesheet" href="../../assets/css/list.css">
 	<link rel="stylesheet" href="../../assets/css/syntaxhighlight.css">
-    <title>HTML : STRUKTUR | ASLAB RPL</title>
+    <title>HTML : IMAGE | ASLAB RPL</title>
 </head>
 <body>
     <nav class="navbar navbar-expand navbar-light">
@@ -43,29 +43,41 @@
                     <div class="col-md-12 mx-auto">
                         <div class="card mt-5">
                             <div class="card-body p-3 text-primary">
-                                <h3 class="text-center">HTML : STRUKTUR</h3>
+                                <h3 class="text-center">HTML : IMAGE</h3>
                                 <section class="mt-5">
-                                    <h3>Struktur HTML</h3>
-                                    <img src="https://iili.io/RyoIWP.md.png" class="img-fluid mt-3">
+                                    <h3>IMAGE</h3>
+                                    <img src="https://iili.io/5HcU4j.md.png"  class="img-fluid mt-3">
                                     <p class="text-justify mt-3">
-                                        Seperti gambar di atas,saat kita membuka sebuah tag <span class="code-line"><span class="element">&lt;p&gt;</span></span> maka kita harus menutupnya dengan tag <span class="code-line"><span class="element">&lt;/p&gt;</span></span>
+                                        Kodingan di atas akan menghasilkan output seperti ini :
                                     </p>
+                                    <img src="https://iili.io/5HcOT7.png" class="img-fluid">
                                 </section>
-                                <section class="mt-3">
-                                    <img src="https://iili.io/Ryo5ga.md.png" class="img-fluid mb-3">
-                                    <p class="text-justify">
-                                        Penjelasan Gambar diatas adalah sebagai berikut : <br>
-                                        <span class="code-line"><span class="element">&lt;!DOCTYPE html&gt;</span></span> adalah syntax wajib untuk memberi tahu browser bahwa kita menggunakan HTML 5.
-                                        <br>Sebelum membuat tampilan element - element yang lain,kita harus membuat element <span class="code-line"><span class="element">&lt;html&gt;&lt;/html&gt;</span></span><br>
-                                        Dalam html terbagi menjadi 2 bagian lagi yaitu tag <span class="code-line"><span class="element">&lt;head&gt;</span></span> dan <span class="code-line"><span class="element">&lt;body&gt;</span></span>
-                                        <br><br>Didalam TAG HEAD biasanya hanya untuk memasukkan element - element yang tidak ditampilkan di interface.Sedangakan di dalam TAG BODY pada umumnya ditampilkan ke user interface. <br><br>
-                                        Tag Head bisa diibaratkan bumbunya.Sedangkan Tag Body adalah makanannya.
-                                    </p>
+                                <section class="mt-5">
+                                    <h3>Penjelasan</h3>
+                                    <ul>
+                                        <li>
+                                            Untuk menambahkan gambar dalam html,kita bisa menggunakan tag <span class="code-line"><span class="element">&lt;img <span class="attr">src="<span class="val-attr">URL GAMBAR</span>"</span> /&gt;</span></span>
+                                        </li>
+                                        <li>
+                                            Attribute <span class="code-line"><span class="attr">src</span></span> di dalam tag <span class="code-line"><span class="element">&lt;img /&gt;</span></span> berfungsi untuk memanggil url / lokasi dar sebuah gambar yang akan kita tambahkan.Misalkan :
+                                            <ul>
+                                                <li>Online : Kita dapat menggunakan URL dari gambar yang ada google.</li>
+                                                <li>Lokal : Kita harus memanggil dimana lokasi gambar itu berada.Misalnya gambar kita ada di foler yang bernama "image" dengan nama file "wp.jpg" maka kita harus menuliskannya seperti ini <span class="code-line"><span class="attr">src="<span class="val-attr">image/wp.jpg</span>"</span></span></li>
+                                            </ul>               
+                                        </li>
+                                        <li>
+                                            Attribute <span class="code-line"><span class="attr">width</span></span> berfungsi untuk mengatur besarnya ukuran gambar.Biasanya diisi dengan satuan jumlah <strong>px,rem,em,pt,%, dan yang lainya.</strong>
+                                        </li>
+                                        <li>
+                                            Attribute <span class="code-line"><span class="attr">alt</span></span> berfungsi untuk menampilkan text jikalau gambar gagal dimuat/diload.
+                                        </li>
+                                    </ul>
                                 </section>
+                                
                             </div>
                             <div class="card-footer">
-                                <a href="./m1.html" class="btn btn-md btn-primary float-left">Previous</a>
-                                <a href="./m3.html" class="btn btn-md btn-primary float-right">Next</a>
+                                <a href="./m4.html" class="btn btn-md btn-primary float-left">Previous</a>
+                                <a href="./m6.html" class="btn btn-md btn-primary float-right">Next</a>
                             </div>
                         </div>
                     </div>
