@@ -21,31 +21,33 @@
     font-size: 1.1rem;
 }
 header {
-    margin-top: 4rem;
-    display: flex;
-    flex-wrap: wrap;
+    padding-top: 20px;
+    background: var(--main-color);
+    color: #fff;
+    margin-bottom: 50px;
 }
-.bloob-left img {
-    width: 750px;
+.aslab-header-brand {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
 }
-.aslab-brand-header {
-    margin-top: 5rem;
-    margin-left: 5rem;
-    padding-top: 10rem;
-    text-align: center;
-    color: var(--main-color) !important;
-}
-.aslab-brand-header h4 {
-    font-size: 3.6rem;
+.aslab-header-brand h3 {
+    font-size: 2rem;
     font-weight: 600;
     letter-spacing: .3em;
 }
-.aslab-brand-header p {
+.aslab-header-brand p {
     font-size: 2rem;
     font-style: italic;
 }
+.waves-header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .courses {
-    margin-top: 15rem!important;
+    margin-top: 0rem!important;
     margin-bottom: 5rem !important;
 }
 .courses .card-title {
@@ -114,9 +116,7 @@ img#img-icon {
 }
 
 @media only screen and (max-width: 1440px) {
-    .bloob-left img {
-        width: 650px;
-    }
+    
     .aslab-brand-header {
         margin-right: 10rem;
         margin-top: 7rem;
@@ -151,12 +151,7 @@ img#img-icon {
     }
 }
 @media only screen and (max-width: 1024px) {
-    header {
-        margin-bottom: 18rem;
-    }
-    .bloob-left img {
-        width: 465px;
-    }
+    
     .aslab-brand-header {
         margin-right: 7rem;
         margin-top: 4rem;
@@ -194,6 +189,15 @@ img#img-icon {
     }
 }
 @media only screen and (max-width: 768px) {
+    .aslab-header-brand h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: .4em;
+    }
+    .aslab-header-brand p {
+        font-size: 1rem;
+        font-style: italic;
+    }
     .nav {
         width: 100%;
     }
@@ -215,13 +219,6 @@ img#img-icon {
     .nav-link {
         color: var(--main-color) !important;
         font-size: .9rem;
-    }
-    header {
-        margin-top: 2rem;
-        margin-bottom: 5rem;
-    }
-    .bloob-left img {
-        width: 305px;
     }
     .aslab-brand-header {
         margin-right: 4rem;
@@ -282,14 +279,6 @@ img#img-icon {
     .nav-link {
         color: var(--main-color) !important;
         font-size: .5rem;
-    }
-    header {
-        margin-top: 2rem;
-        margin-bottom: 5rem;
-        position: relative;
-    }
-    .bloob-left img {
-        width: 250px;
     }
     .aslab-brand-header {
         margin-right: 0;
@@ -392,9 +381,6 @@ img#img-icon {
     }
 }
 @media only screen and (max-width: 320px) {
-    .bloob-left img {
-        width: 150px;
-    }
     .aslab-brand-header {
         top: 3rem;
         right: 0;
